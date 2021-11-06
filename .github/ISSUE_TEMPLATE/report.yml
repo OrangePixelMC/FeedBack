@@ -1,7 +1,7 @@
 name: Report | 举报
 description: 举报玩家违规行为
 title: "[Report 举报]: "
-labels: 
+labels: ['🚨 Report | 举报']
 assignees:
   - juzijun233
 body:
