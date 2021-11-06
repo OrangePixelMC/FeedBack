@@ -1,9 +1,9 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: Report | 举报
+description: 举报玩家违规行为
+title: "[Report 举报]: "
+labels: 
 assignees:
-  - octocat
+  - juzijun233
 body:
   - type: markdown
     attributes:
