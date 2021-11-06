@@ -21,7 +21,7 @@ body:
       options:
         - Lobby 大厅
         - 经典生存
-     validations:
+    validations:
       required: true
   - type: dropdown
     id: report-type
@@ -36,5 +36,5 @@ body:
         - Destroyed 被破坏
         - Malicious kill 恶意击杀
         - Bad information (verbal, skin, or other) 不良信息（言语、皮肤或其他）
-     validations:
+    validations:
       required: true
