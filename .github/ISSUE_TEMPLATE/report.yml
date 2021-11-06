@@ -11,6 +11,8 @@ body:
       label: Your Minecraft ID 你的游戏ID
       description: 填写你的游戏ID
       placeholder: ex. juzijun233 例如 juzijun233
+    validations:
+      required: true
   - type: dropdown
     id: server
     attributes:
@@ -19,58 +21,20 @@ body:
       options:
         - Lobby 大厅
         - 经典生存
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
+     validations:
       required: true
   - type: dropdown
-    id: version
+    id: report-type
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: 报告类型
+      description: 你要报告什么？
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
+        - Spam 广告、刷屏、垃圾信息
+        - Cheat 作弊或黑客行为
+        - Lost 丢失
+        - Theft 失窃
+        - Destroyed 被破坏
+        - Malicious kill 恶意击杀
+        - Bad information (verbal, skin, or other) 不良信息（言语、皮肤或其他）
+     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
