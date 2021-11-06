@@ -6,13 +6,13 @@ assignees:
   - juzijun233
 body:
   - type: input
-    id: 举报者id
+    id: report-id
     attributes:
       label: Your Minecraft ID 你的游戏ID
       description: 填写你的游戏ID
       placeholder: ex. juzijun233 例如 juzijun233
   - type: dropdown
-    id: 所在服务器
+    id: server
     attributes:
       label: Server/Mode 服务器/模式
       description: Which Server or gamemode 发生在哪个服务器或游戏模式
