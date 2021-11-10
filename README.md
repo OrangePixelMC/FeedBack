@@ -18,6 +18,8 @@
 
 # 其它交流渠道
 QQ群：313339329
+
+如果搜索不到尝试扫码
 ![image](https://user-images.githubusercontent.com/43207394/141055129-38be9383-7a0e-42aa-b8b0-8024a2d44a05.png)
 
 开黑啦频道：加入服务器时输入DK7UYu
