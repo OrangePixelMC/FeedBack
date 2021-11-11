@@ -38,3 +38,7 @@ body:
         - Bad information (verbal, skin, or other) 不良信息（言语、皮肤或其他）
     validations:
       required: true
+  - type: markdown
+    attributes:
+        value: |
+            不同的报告类型需要提交的信息略有不同
