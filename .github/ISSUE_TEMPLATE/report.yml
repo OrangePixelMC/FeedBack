@@ -45,15 +45,15 @@ body:
   - type: checkboxes
     id: report-hack-type
     attributes:
-    label: 您认为对方使用了什么类型的外挂？
-    description: 选择你看上去疑似的
-    options:
-      - label: 非法飞行
-      - label: 杀戮光环
-      - label: 快速食用
-      - label: 飞船
-      - label: 无击退
-      - label: 其它
+      label: 您认为对方使用了什么类型的外挂？
+      description: 选择你看上去疑似的
+      options:
+        - label: 非法飞行
+        - label: 杀戮光环
+        - label: 快速食用
+        - label: 飞船
+        - label: 无击退
+        - label: 其它
   - type: textarea
     id: repro-more-info
     attributes:
