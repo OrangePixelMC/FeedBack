@@ -1,7 +1,7 @@
 ---
-name: "\U0001F41E Bug | 错误反馈"
-about: 反馈一个错误
-title: "[\U0001F41E  BUG ｜ 错误]"
+name: "\U0001F41E Bug | 反馈错误"
+about: Feedback an error | 反馈一个漏洞或错误
+title: "[\U0001F41E  Bug ｜ 错误]"
 labels: "\U0001F41E bug | 错误"
 assignees: juzijun233
 
@@ -9,7 +9,7 @@ assignees: juzijun233
 
 # 它发生在哪个服务器上？
 大厅/多元生存/经典生存/创造工艺/
-
+* 根据实际情况保留发生该情况的服务器名
 
 # 发生了什么问题？
 清晰且简介的描述你遇到的问题
