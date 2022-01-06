@@ -42,18 +42,6 @@ body:
     attributes:
         value: |
             👉 不同的报告类型需要提交的信息略有不同
-  - type: checkboxes
-    id: report-hack-type
-    attributes:
-      label: 您认为对方使用了什么类型的外挂？
-      description: 选择你看上去疑似的
-      options:
-        - label: 非法飞行
-        - label: 杀戮光环
-        - label: 快速食用
-        - label: 飞船
-        - label: 无击退
-        - label: 其它（请在下方补充）
   - type: textarea
     id: repro-more-info
     attributes:
@@ -64,6 +52,11 @@ body:
         2.
         3.
         ...
+        损失了什么物品、方块或生物等
+        或认为对方违反了什么规则/疑似使用了什么作弊
+        亦可描述事件经过
+        提供尽可能准确的时间、提供尽可能准确的位置
+        例子：丢失了 X数量的Y物品；少了X数量的Y生物；位于X位置的方块被破坏
       render: bash
     validations:
       required: true
