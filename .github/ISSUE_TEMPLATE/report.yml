@@ -14,13 +14,26 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: server
+    id: server-type
     attributes:
       label: Server/Mode ｜ 服务器/模式
       description: Which Server or gamemode 发生在哪个服务器或游戏模式
       options:
         - Lobby 大厅
-        - Classic survival 经典生存
+        - Classic Survival LTS 经典生存LTS
+        - Classic Survival 1.19 经典生存1.19
+        - Create 创造工艺
+        - Village Defense War 村庄保卫战
+        - B Team 战桥 团队模式
+        - B Solo 战桥 单挑模式
+    validations:
+      required: true
+  - type: input
+    id: server-id
+    attributes:
+      label: Server ID ｜ 服务器ID
+      description: 填写所处服务器的ID
+      placeholder: ex. A1B2C3 例如 A1B2C3
     validations:
       required: true
   - type: dropdown
